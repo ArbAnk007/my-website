@@ -44,3 +44,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
+a:hover {
+    color: rgb(217, 214, 214);
+}
