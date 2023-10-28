@@ -26,7 +26,7 @@ nav {
     height: 40px;
     width: 40px;
     border: 2px solid white;
-    border-radius: 35px;
+    border-radius: 22px;
 }
 
 .right-section img {
@@ -49,4 +49,101 @@ a {
 a:hover {
     color: rgb(255, 255, 255);
     transition: color 0.1s ease-in-out;
+}
+
+#hamburger-icon {
+    display: none;
+}
+
+#up-icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    nav.collapsed {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .left-section-collapsed img {
+        height: 30px;
+        width: 30px;
+        border: 2px solid white;
+        border-radius: 16px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .left-section-collapsed a:nth-child(2) {
+        display: none;
+    }
+
+    .left-section-collapsed a:nth-child(3) {
+        display: none;
+    }
+
+    .left-section-collapsed a:nth-child(4) {
+        display: none;
+    }
+
+    .right-section-collapsed a {
+        display: none;
+    }
+
+    .right-section-collapsed #hamburger-icon {
+        display: block;
+        margin-right: 16px;
+        height: 24px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .right-section-collapsed #up-icon {
+        display: none;
+    }
+
+    nav.expanded {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        justify-content: start;
+        align-items: center;
+        transition: all 0.1s ease-in-out;
+    }
+
+    .left-section-expanded {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .left-section-expanded a {
+        margin-bottom: 8px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .right-section-expanded {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .right-section-expanded a {
+        margin-bottom: 8px;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .right-section-expanded #up-icon {
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin-top: 16px;
+        transition: all 0.2s ease-in-out;
+    }
+
 }

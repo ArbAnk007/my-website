@@ -11,10 +11,9 @@
 }
 
 .image-container img {
-    height: 400px;
-    width: 400px;
+    max-height: 400px;
+    max-width: 400px;
 }
-
 
 .about-me {
     flex: 1;
@@ -22,7 +21,7 @@
 }
 
 #name {
-    font-size: 44px;
+    font-size: 32px;
     font-weight: 700;
     text-decoration: underline;
     color: #183D3D;
@@ -43,4 +42,43 @@
 .tech {
     text-align: center;
     font-size: 22px;
+}
+
+@media screen and (max-width:600px) {
+    .introduction {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .about-me {
+        font-size: 14px;
+    }
+
+    #name {
+        font-size: 18px;
+    }
+
+    .image-container img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .tech-heading {
+        font-size: 18px;
+    }
+
+    .tech-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 18px;
+    }
+
+    .tech {
+        font-size: 14px;
+    }
+
+    .tech img {
+        width: 48px;
+        height: 48px;
+    }
+
 }

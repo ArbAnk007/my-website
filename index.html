@@ -12,19 +12,21 @@
 </head>
 
 <body>
-    <nav>
-        <div class="left-section">
+    <nav class="collapsed" id="nav">
+        <div class="left-section left-section-collapsed" id="left-section-js">
             <a href="index.html"><img src="./Assets/icons/icon.jpg" alt="arbank007 logo"></a>
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="projects.html">Projects</a>
-            <a href="#">Services</a>
+            <a href="services.html">Services</a>
         </div>
-        <div class="right-section">
-            <a href="#">Contact</a>
+        <div class="right-section right-section-collapsed" id="right-section-js">
+            <a href="contact.html">Contact</a>
             <a href="https://github.com/ArbAnk007" target="_blank"><img src="./Assets/icons/icon-github.png"
                     alt="github logo"></a>
             <a href="https://www.instagram.com/arbank_007/?next=%2F" target="_blank"><img
                     src="./Assets/icons/icon-instagram.png" alt="instagram logo"></a>
+            <img src="./Assets/icons/icon-hamburger.svg" alt="Hamburger icon" id="hamburger-icon">
+            <img src="./Assets/icons/icon-up.png" alt="" id="up-icon">
         </div>
     </nav>
 
@@ -32,7 +34,8 @@
         <div class="introduction">
             <div class="about-me">
                 <P id="line-one">
-                    Hello, I am Arbab Ansari a creative Web Developer who loves the idea of turning pieces of code into
+                    Hello, I am <span id="name">Arbab Ansari</span> a creative Web Developer who loves the idea of
+                    turning pieces of code into
                     fascinating and functional websites. I am a life long learner and tries to be a better version of
                     myself every day.
                 </P>
@@ -42,7 +45,7 @@
                 </p>
             </div>
             <div class="image-container">
-                <img src="./Assets/substitute-image.svg" alt="substitute profile picture">
+                <img src="./Assets/substitute-image.png" alt="substitute profile picture">
             </div>
         </div>
 
@@ -93,5 +96,6 @@
         <p>© 2023-2024, ArbAnk007 or its affiliates</p>
     </footer>
 </body>
+<script src="./Script/navbar.js"></script>
 
 </html>
