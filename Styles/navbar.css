@@ -34,6 +34,13 @@ nav {
     width: 32px;
 }
 
+#github-icon {
+    background-color: white;
+    border-radius: 22px;
+    box-sizing: border-box;
+    border: 5px solid black;
+}
+
 .left-section img,
 .left-section a,
 .right-section a {
