@@ -121,7 +121,8 @@ a:hover {
     }
 
     .left-section-expanded a {
-        margin-bottom: 8px;
+        margin-top: 4px;
+        margin-bottom: 4px;
         transition: all 0.2s ease-in-out;
     }
 
@@ -134,7 +135,8 @@ a:hover {
     }
 
     .right-section-expanded a {
-        margin-bottom: 8px;
+        margin-top: 4px;
+        margin-bottom: 4px;
         transition: all 0.2s ease-in-out;
     }
 
