@@ -1,0 +1,14 @@
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  font-size: 22px;
+}
+
+.tech-card img {
+  height: 96px;
+  width: 96px;
+  object-fit: contain;
+}

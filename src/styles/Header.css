@@ -1,0 +1,72 @@
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 70px;
+  background-color: #f1f6f9a9;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+  height: 100%;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 22px;
+}
+
+.mid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 22px;
+}
+
+.navbar-link {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-weight: 700;
+  transition: 0.1s all ease-in-out;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+  transition: 0.1s all ease-in-out;
+}
+
+.navbar-link:hover {
+  color: rgb(0, 0, 0);
+  transition: 0.1s all ease-in-out;
+}
+
+.navbar-link.active {
+  color: rgb(0, 0, 0);
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12px;
+}
+
+.github-icon,
+.insta-icon,
+.theme-switcher {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
