@@ -1,4 +1,5 @@
 import "../styles/Home.css"
+// why you doing this
 import { substituteImage, pythonIcon, htmlIcon, cssIcon, javascriptIcon, reactIcon, nodejsIconDark, nodejsIconLight, expressjsIcon, mongodbIcon } from "../images"
 import { TechCard } from "./index"
 
