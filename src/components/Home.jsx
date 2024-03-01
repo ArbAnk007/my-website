@@ -1,5 +1,4 @@
 import "../styles/Home.css"
-// why you doing this
 import { substituteImage, pythonIcon, htmlIcon, cssIcon, javascriptIcon, reactIcon, nodejsIconDark, nodejsIconLight, expressjsIcon, mongodbIcon } from "../images"
 import { TechCard } from "./index"
 
@@ -49,30 +48,30 @@ function Home() {
   ]
   
   return (
-    <div className="home-container">
-      <div className="introduction">
-        <div className="about-me">
-          <p className="line-zero">
-            Hello, I am <span id="name">Arbab Ansari</span>
+    <div className="overflow-hidden">
+      <div className="flex sm:flex-row flex-col">
+        <div>
+          <p className="sm:text-2xl text-sm my-6">
+            Hello, I am <br /> <span id="name" className="text-lg">Arbab Ansari</span>
           </p>
-          <p className="line-one">
+          <p className="sm:text-2xl text-sm my-6">
             A creative Web Developer who loves the idea of
             turning pieces of code into
             fascinating and functional websites. I am a life long learner and tries to be a better version of
             myself every day.
           </p>
-          <p className="line-two">
+          <p className="sm:text-2xl text-sm my-6">
             Other than developing websites I enjoy reading books and explore the never ending world of
-            echnologies.
+            technologies.
           </p>
         </div>
-          <div className="image-container">
-            <img src={substituteImage} alt="substitute profile picture" />
+          <div className="flex justify-center items-center">
+            <img src={substituteImage} alt="substitute profile picture" className="sm:max-w-[400px] sm:max-h-[400px] max-w-[150px] max-h-[150px]" />
           </div>
       </div>
       <hr />
-      <h1 className="tech-heading">Technologies I Use</h1>
-      <div className="tech-container">
+      <h1 className="sm:text-3xl text-lg my-7 text-center">Technologies I Use</h1>
+      <div className="grid sm:grid-cols-4 grid-cols-3 gap-y-6">
         {techUsed.map( (tech) => (<TechCard image={tech.image} techName={tech.techName} altText={tech.altText} key={tech.techName} />) )}
       </div>
     </div>

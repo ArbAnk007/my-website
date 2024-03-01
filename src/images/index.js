@@ -13,6 +13,10 @@ import nodejsIconDark from "./icons/icon-nodejs-dark.png"
 import nodejsIconLight from "./icons/icon-nodejs-light.svg"
 import expressjsIcon from "./icons/icon-expressjs.png"
 import mongodbIcon from "./icons/icon-mongodb.svg"
+import hamburgerIconLight from "./icons/icon-hamburger.svg"
+import hamburgerIconDark from "./icons/icon-hamburger-dark.png"
+import crossIconDark from "./icons/icon-cross-dark.png"
+import linkedInIcon from "./icons/icon-linkedin.png"
 
 export { 
   logo,
@@ -29,5 +33,9 @@ export {
   nodejsIconDark,
   nodejsIconLight,
   expressjsIcon,
-  mongodbIcon
+  mongodbIcon,
+  hamburgerIconLight,
+  hamburgerIconDark,
+  crossIconDark,
+  linkedInIcon
 }

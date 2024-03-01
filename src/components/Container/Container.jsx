@@ -2,7 +2,7 @@ import "../../styles/Container.css"
 
 function Container({children}) {
   return (
-    <div className="container">{children}</div>
+    <div className="w-full sm:px-10 px-8">{children}</div>
   );
 }
 
