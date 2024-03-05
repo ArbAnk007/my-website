@@ -17,6 +17,11 @@ import hamburgerIconLight from "./icons/icon-hamburger.svg"
 import hamburgerIconDark from "./icons/icon-hamburger-dark.png"
 import crossIconDark from "./icons/icon-cross-dark.png"
 import linkedInIcon from "./icons/icon-linkedin.png"
+import myBlogThumbnail from "./project-thumbnail/thumbnail-my-blog.png"
+import ticTacToeThumbnail from "./project-thumbnail/thumbnail-tictactoe.png"
+import rockPaperScissorThumbnail from "./project-thumbnail/thumbnail-rock-paper-scissor.png"
+import currencyConverterThumbnail from "./project-thumbnail/thumbnail-currency-converter.png"
+import todoThumbnail from "./project-thumbnail/thumbnail-todo.png"
 
 export { 
   logo,
@@ -37,5 +42,10 @@ export {
   hamburgerIconLight,
   hamburgerIconDark,
   crossIconDark,
-  linkedInIcon
+  linkedInIcon,
+  myBlogThumbnail,
+  ticTacToeThumbnail,
+  rockPaperScissorThumbnail,
+  currencyConverterThumbnail,
+  todoThumbnail
 }

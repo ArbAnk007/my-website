@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './styles/index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import { Test, Home } from "./components"
+import { HomePage, ProjectPage, ContactPage } from "./pages"
 
 const router = createBrowserRouter([
   {
@@ -12,15 +12,23 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <Home />
+        element: <HomePage />
       },
       {
         path: "/home",
-        element: <Home />
+        element: <HomePage />
+      },
+      {
+        path: "/projects",
+        element: <ProjectPage />
+      },
+      {
+        path: "/contact",
+        element: <ContactPage />
       },
       {
         path: '/:slug',
-        element: <Test />,
+        element: <HomePage />,
       }
     ]
   }
