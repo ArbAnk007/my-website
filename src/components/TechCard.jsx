@@ -1,5 +1,3 @@
-import "../styles/TechCard.css"
-
 function TechCard({image, altText="", techName}) {
   return ( 
     <div className="tech-card flex flex-col justify-center items-center md:gap-y-6 md:text-xl sm:gap-y-5 sm:text-lg text-sm gap-y-4">
