@@ -1,4 +1,3 @@
-import "../styles/Home.css"
 import { substituteImage, pythonIcon, htmlIcon, cssIcon, javascriptIcon, reactIcon, nodejsIconDark, nodejsIconLight, expressjsIcon, mongodbIcon, myBlogThumbnail } from "../images"
 import { TechCard, FeaturedProjectCard } from "./index"
 
