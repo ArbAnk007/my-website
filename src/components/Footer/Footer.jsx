@@ -1,5 +1,3 @@
-import "../../styles/Footer.css"
-
 function Footer() {
   return ( 
     <footer className="footer flex justify-center items-center bg-[#242d34] text-white absolute bottom-0 right-0 left-0 h-6 sm:text-sm text-xs">

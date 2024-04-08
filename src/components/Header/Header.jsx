@@ -1,4 +1,3 @@
-import "../../styles/Header.css"
 import { Link, NavLink } from "react-router-dom";
 import { logo, githubIcon, darkThemeIcon, lightThemeIcon, hamburgerIconDark, crossIconDark, linkedInIcon } from "../../images"
 import { useState } from "react";
