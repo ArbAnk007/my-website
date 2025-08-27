@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@keyframes shine {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@theme {
+  --animate-shine: shine 3s linear forwards;
+}
+
+html {
+  background-color: black;
+  scroll-behavior: smooth;
+}
