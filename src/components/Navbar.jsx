@@ -1,6 +1,6 @@
 function Navbar() {
 	return (
-		<nav className="flex justify-end items-center px-8 py-4 fixed right-0 left-0 backdrop-blur-lg z-10">
+		<nav className="flex justify-end items-center px-8 py-4 fixed top-0 right-0 left-0 backdrop-blur-lg z-10">
 			<div className="flex gap-6 text-sm">
 				<a href="#home" className="hover:text-teal-400">
 					Home
