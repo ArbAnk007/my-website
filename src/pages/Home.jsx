@@ -27,7 +27,7 @@ const projects = [
 		githubLink: "https://github.com/ArbAnk007/Rock-Paper-Scissors",
 	},
 	{
-		title: "TikTacToe",
+		title: "TicTacToe",
 		desc: "TicTacToe game made using HTML, CSS and JS",
 		live: "https://arbank007.github.io/TicTacToe/",
 		githubLink: "https://github.com/ArbAnk007/TicTacToe",
@@ -58,7 +58,7 @@ function Home() {
 					</a>
 				</motion.div>
 			</section>
-			<section className="flex justify-center items-center flex-wrap gap-12 text-center min-h-screen bg-neutral-950 relative" id="projects">
+			<section className="flex justify-center items-center flex-wrap gap-12 text-center min-h-screen pt-12 bg-neutral-950 relative" id="projects">
 				<div className="text-teal-400 md:text-4xl text-2xl font-bold">Projects</div>
 				<div className="flex justify-center flex-wrap gap-6">
 					{projects.map((item) => (
@@ -66,7 +66,7 @@ function Home() {
 					))}
 				</div>
 			</section>
-			<section className="flex flex-col justify-center items-center text-center min-h-screen bg-neutral-950 relative" id="contact">
+			<section className="flex flex-col justify-center items-center text-center min-h-screen pt-12 bg-neutral-950 relative" id="contact">
 				<div className="h-16 w-42 bg-teal-400 blur-3xl absolute top-0 left-0 z-40"></div>
 				<div className="h-16 w-42 bg-teal-400 blur-3xl absolute bottom-0 right-0 z-40"></div>
 				Under Construction
